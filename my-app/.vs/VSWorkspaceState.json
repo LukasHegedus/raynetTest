@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\companyDetail",
+    "\\src\\components\\companyTable",
+    "\\src\\service",
+    "\\src\\store",
+    "\\src\\utils",
+    "\\src\\views"
+  ],
+  "SelectedNode": "\\src\\views\\companyView",
+  "PreviewInSolutionExplorer": false
+}

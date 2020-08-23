@@ -1,0 +1,33 @@
+﻿.rt-company-view {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    .rt-company-view-filter {
+        padding: .5em 2em;
+
+        .rt-company-view-filter-input {
+            background: #eae9e9;
+            border: none;
+            padding: .8em;
+            border-radius: 20px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .rt-company-view-presentation {
+        display: flex;
+
+        .rt-company-table {
+            flex: 2;
+        }
+
+        .rt-company-detail {
+            flex: 1;
+            padding: 0 1em;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+﻿.rt-company-detail-wrapper {
+    border: 2px solid #000;
+    padding: 1em;
+
+    .rt-company-detail-header {
+        .rt-company-detail-category {
+            padding: 0.25em 1em;
+            border-radius: 15px;
+        }
+
+        .rt-company-detail-header-text {
+            &.A_POTENTIAL {
+                color: #ff6a00;
+            }
+
+            &.B_ACTUAL {
+                color: #00e405;
+            }
+
+            &.C_DEFERRED {
+                color: #808080;
+            }
+
+            &.D_UNATTRACTIVE {
+                color: #ff0000;
+            }
+        }
+    }
+
+    .rt-company-detail-name {
+        font-size: 2em;
+    }
+
+    .rt-company-detail-info {
+        display: flex;
+        flex-direction: column;
+        margin: .5em 0;
+        align-items: flex-start;
+
+        .rt-map-link {
+            margin-top: .5em;
+            color: #0072ff;
+            
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

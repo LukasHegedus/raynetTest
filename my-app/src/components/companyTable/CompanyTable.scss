@@ -1,0 +1,64 @@
+﻿.rt-table-container {
+    .rt-table {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        overflow: hidden;
+
+        .rt-table-header {
+            background: #0094ff;
+
+            .rt-table-header-row {
+                .MuiTableCell-head {
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .rt-table-body {
+            .rt-table-row {
+                cursor: pointer;
+
+                &:nth-of-type(2n) {
+                    background: #f5f5f5;
+                }
+
+                &.rt-table-row-selected {
+                    background: #deffdb;
+                }
+
+                &:not(.rt-table-row-selected):hover {
+                    background: #f1fff0;
+                }
+
+                .rt-name-column {
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+
+                .rt-state-column {
+                    &.A_POTENTIAL {
+                        color: #ff6a00;
+                    }
+
+                    &.B_ACTUAL {
+                        color: #00e405;
+                    }
+
+                    &.C_DEFERRED {
+                        color: #808080;
+                    }
+
+                    &.D_UNATTRACTIVE {
+                        color: #ff0000;
+                    }
+                }
+
+                .rt-category-column .rt-category {
+                    padding: 0.5em 1em;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
